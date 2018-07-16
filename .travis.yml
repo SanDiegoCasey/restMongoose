@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: kxe71u0V2N6Z4hJc6+zymQ95IQCD6VPeL7HQbLxdMyC5Mlwf1xvrtkrsYhKU6CEVuhdVduztuK0oUiKtJLu3on5Qiu3ZsRtV8rHUWCd+A0ofysq4ASebCF2ADHhLX6hgQ/7ewss+PajvaiibEt+fYv1niGY7JtM01CKBS4c69Fjz4ztD4W9mHoVD4ClzPTpsn9slQ9KBqhYo0n+yMTza/plrJ36kw+ibE53bTy/GmiGaUN/04ZVK36hhLLk/uPojcM9mxgs1w1muHPBAGv0ARhRtNHuPyc7eRanrkDG+AirCP/eP3d29gQgGDVrfiOIgh95ktqX9Iy+RCOk4bL8OyjP04H/dZUgS77Q7CyQEmLci5RPyBZSrPsDGlBAag9PxgOkQLKtlzAqop1dk3/ISzZzVtcR9BSV75xZOOdEBeVT0xQ/1P/R/BVaBiC2EC66BJsdhK0eElyJJAWDZi9U2hX5BLuJMt/VilUUTD3JmVn4ZFg0ig6iW/avbYlTsMoPZXtrIlkXu6h0uCbWntes+Z45zk2oQs9vijpHGorcVjAXDHdOoo2TmoDhB8ObuSqLegu/XOcEGLcgfZjJkn1KruFtZMJsGefnuD/Var4ZrThsIzzqqfA2pQiq4fiHQ/0WA8KWCiWJhbEengatNZ6pSteY5BLb2HHzU5AT1JJBgErE=
+  app: salty-hamlet-75060
+  on:
+    repo: SanDiegoCasey/restMongoose
